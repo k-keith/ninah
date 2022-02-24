@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" type="image/png" href="images/LogoSample_ByTailorBrands.jpg">
+    
+    <title>Services</title>
+</head>
+
+<body>
+  <style>
+    
+    .logo
+    {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-top: auto;
+    float:left;
+    margin:0;
+    }
+    .servicecont h2 
+    {
+      text-align: center;
+      font-size: 40px;
+      font-family: Arial, Helvetica, sans-serif;
+      letter-spacing: 1.2px;
+      color: rgb(20, 18, 18);
+    }
+        /* Float four columns side by side */
+    .column {
+      float: left;
+      width: 25%;
+      
+      
+    }
+    
+    /* Remove extra left and right margins, due to padding */
+    .row 
+    {
+      margin: 0 -5px;
+      margin-top: 20px;
+      justify-content: center;
+      
+    }
+    
+    /* Clear floats after the columns */
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+    
+    /* Responsive columns */
+    @media screen and (max-width: 600px) {
+      .title h4
+      {
+          display: none;
+      }
+      .column {
+        width: 100%;
+        display: block;
+        margin-bottom: 20px;
+      }
+    }
+    
+    /* Style the counter cards */
+.card 
+{
+  box-shadow: 0 4px 8px 0 rgba(58, 26, 26, 0.2);
+  transition: 0.3s;
+  
+}
+
+.card:hover 
+{
+  box-shadow: 0 8px 16px 0 rgba(104, 27, 27, 0.2);
+  background: teal;
+}
+
+.container
+{
+  padding: 2px 16px;
+}
+.card h4
+{
+      margin-bottom: 12px;
+      font-size: 18px;
+      font-weight: 400;
+      text-align: center;
+      color: rgb(20, 18, 18);
+      font-family: Arial, Helvetica, sans-serif;
+}
+.card img
+{
+  border-radius: 2px;
+  box-shadow: 0 8px 16px 0 rgba(104, 27, 27, 0.2);
+}
+.servicebtn
+ {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+     button
+{
+      width: 200px;
+      padding: 15px 0;
+      text-align: center;
+      justify-content: center;
+      margin: 20px 10px;
+      border-radius: 25px;
+      font-weight: bold;
+      border: 2px solid #009688;
+      color: #fff;
+      background: #000;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+      cursor: pointer;
+}
+    button:hover
+{
+    
+    background: teal;
+    
+}
+      </style>    
+
+    <!--content-->
+   <div class="navscroll">
+    <nav>
+      <div >
+        <img class="logo" src="images/LogoSample_ByTailorBrands.jpg">
+      </div>
+      <div class="title">
+        <h4>Glamour Salon n Spa</h4> 
+      </div>
+      <ul class="navlinks">
+    
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="service.html">Services</a></li>
+        <li><a href="contact.php">Contact Us</a></li>
+        <li>
+        
+        <a href="">
+          <P>Book Now<i class="fa fa-caret-down" aria-hidden="true"></i></p>
+        </a>
+        
+        <ul>
+          <li><a href="login.php">Admin</a></li>
+          <li><a href="vlogin.php">Users</a></li>
+        </ul>
+      </li>
+      </ul>
+      <div class="mobile">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+      </div>
+  </nav>
+  </div>
+  <script src="carproj.js"></script>
+   
+  <!--main body content-->
+    <div id="bodycontent">
+  
+    <h1>Welcome To Glamour Salon & Spa </h1>
+    <p>For the best customer services offered at expertise level. <br>
+    Bed and breakfast at your fingertips.</p>
+
+
+    <div id="content">
+      <div class="slideshow-container">
+      
+      <div class="mySlides fade">
+        <img src="images/camille-brodard-VxAwTeiqDao-unsplash.jpg" style="width: 100%; height:80vh;">
+      </div>
+      
+      <div class="mySlides fade">
+        <img src="images/jared-rice-PibraWHb4h8-unsplash.jpg" style="width:100%; height:80vh;">
+      </div>
+      
+      <div class="mySlides fade">
+        <img src="images/beauty-salon-g45fcbb033_1920.jpg" style="width: 100%; height:80vh;">
+      </div>
+
+      <div class="mySlides fade">
+        <img src="images/wellness-ge5fc36791_1920.jpg" style="width: 100%; height:80vh;">
+      </div>
+      <div class="mySlides fade">
+        <img src="images/christin-hume-0MoF-Fe0w0A-unsplash.jpg" style="width: 100%; height:80vh;">
+      </div>
+      
+      </div>   
+   
+      <div style="text-align:center;padding: 15px;">
+        <span class="dot" onclick="currentSlide(1)"></span> 
+        <span class="dot" onclick="currentSlide(2)"></span> 
+        <span class="dot" onclick="currentSlide(3)"></span> 
+        <span class="dot" onclick="currentSlide(4)"></span> 
+        <span class="dot" onclick="currentSlide(5)"></span> 
+      </div>
+</div>
+
+  
+
+<div class="servicecont">  
+  <h2>What We Offer</h2>
+
+  <div class="row" >
+    <div class="column" >
+
+      <div class="card" >
+        <img src="images/engin-akyurt-SMwCQZWayj0-unsplash.jpg" alt="Avatar" style="width:100%">
+        <div class="container">
+          <br><h4><b>Massage</b></h4> 
+          <p>Refereshing massage to relax your muscles!</p> 
+        </div>
+      </div>
+      </div>
+
+  
+      <div class="column">
+
+        <div class="card">
+          <img src="images/hotel-room-service-sandwich.jpg" alt="Avatar" style="width:100%">
+          <div class="container">
+            <br><h4><b>Room Service</b></h4> 
+            <p>Service one call away on your doorstep!</p> 
+          </div>
+        </div>
+        </div>
+    
+        <div class="column">
+
+          <div class="card">
+            <img src="images/huum-xn_MghoT9HE-unsplash.jpg" alt="Avatar" style="width:100%">
+            <div class="container">
+              <br><h4><b>Steamy Sauna</b></h4> 
+              <p>A sauna for relaxation after a long day.</p> 
+            </div>
+          </div>
+          </div>
+    
+          <div class="column">
+
+            <div class="card">
+              <img src="images/benjamin-child-0sT9YhNgSEs-unsplash.jpg" alt="Avatar" style="width:100%">
+              <div class="container">
+                <br><h4><b>Conference Room</b></h4> 
+                <p>A convenient space for all your meetings.</p> 
+              </div>
+            </div>
+            </div>
+</div>
+  </div>
+
+
+</div>
+  
+<script>
+ 
+  var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 3000); // Change image every 3 seconds
+}
+</script>
+  </script>
+
+    <!--Footer-->
+    <div id="footer">
+        <div class="bottom">
+            <center>
+              <p style="letter-spacing: 1.8px; font-size: 17px;font-weight: 300;color: #fff;">
+                  &copy; Glamour Salon & Spa 2022 All Rights Reserved.
+              </p>
+            </center>
+          </div>
+    </div>
+    
+</body>
+</html>
